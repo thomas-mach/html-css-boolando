@@ -48,6 +48,18 @@ ol {
     position: relative;
 } 
 
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.card:hover .overlay {
+	display: block;
+}
+
+
 .badge__discount{
     background-color: red;
     color: white;
@@ -55,10 +67,11 @@ ol {
     line-height: 30px;
     padding: 5px;
     position: absolute;
-    top: 80%;
+    top: 85%;
     left: 0%; 
-    
+    z-index: 999;
 }
+
 
 .badge__sustainability{
     background-color: green;
@@ -67,8 +80,9 @@ ol {
     line-height: 30px;
     padding: 5px;
     position: absolute;
-    top: 80%;
+    top: 85%;
     left: 17%; 
+    z-index: 999;
 }
 
 .badge__favorite{
@@ -80,6 +94,7 @@ ol {
     position: absolute;
     top: 10%;
     right: 0%;
+    z-index: 999;
     
 }
 
