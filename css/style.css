@@ -44,6 +44,51 @@ ol {
 
 /* STYLE */
 
+
+/* HEADER */
+
+header{
+    background-color: #FE6900;
+}
+
+.menu_kind{
+    display: inline;
+    font-size: 15px;
+    display: flex;
+	align-items: center;
+	gap: 10px;   
+	color: white;
+    
+}
+
+.menu_shop{
+    display: inline;
+    font-size: 15px;
+    display: flex;
+	align-items: center;
+	gap: 20px;   
+	color: white;
+}
+
+.logo{
+    display: inline;
+    max-height: 30px;
+}
+
+.row_header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+
+/* SECTION */
+
 .card__main{
     position: relative;
 } 
