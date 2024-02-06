@@ -24,7 +24,7 @@ ol {
 /* LAYOUT */
 
 .container{
-   max-width: 1024px;
+   width: 1000px;
    margin: 0 auto;
    padding: 30px 0; 
 }
@@ -47,6 +47,10 @@ ol {
 .card__main{
     position: relative;
 } 
+
+.card{
+    padding: 15px;
+}
 
 .overlay{
     position: absolute;
