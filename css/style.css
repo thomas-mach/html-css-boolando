@@ -42,6 +42,49 @@ ol {
     width: calc(6 * 100% / 12);
 }
 
+/* STYLE */
+
+.card__main{
+    position: relative;
+} 
+
+.badge__discount{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 5px;
+    position: absolute;
+    top: 75%;
+    left: 0%; 
+    
+}
+
+.badge__sustainability{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 5px;
+    position: absolute;
+    top: 75%;
+    left: 17%; 
+}
+
+.badge__favorite{
+    background-color: white;
+    color: black;
+    font-size: 40px;
+    line-height: 40px;
+    padding: 5px;
+    position: absolute;
+    top: 10%;
+    right: 0%;
+    
+}
+
+
+
 /* DEBUG */
 
 .debug .container{
