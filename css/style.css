@@ -4,6 +4,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+    font-family: 'Roboto Flex', sans-serif;
 }
 
 img {
@@ -26,7 +27,7 @@ ol {
 .container{
    width: 1000px;
    margin: 0 auto;
-   padding: 30px 0; 
+   padding: 15px 0; 
 }
 
 .row{
@@ -38,12 +39,6 @@ ol {
     width: calc(4 * 100% / 12);
 }
 
-.col-6{
-    width: calc(6 * 100% / 12);
-}
-
-/* STYLE */
-
 
 /* HEADER */
 
@@ -52,17 +47,14 @@ header{
 }
 
 .menu_kind{
-    display: inline;
     font-size: 15px;
     display: flex;
 	align-items: center;
 	gap: 10px;   
 	color: white;
-    
 }
 
 .menu_shop{
-    display: inline;
     font-size: 15px;
     display: flex;
 	align-items: center;
@@ -71,24 +63,18 @@ header{
 }
 
 .logo{
-    display: inline;
-    max-height: 30px;
+    max-height: 20px;
 }
 
 .row_header{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 0 15px;
-
 }
 
-
-
-
-/* SECTION */
+/* MAIN */
 
 .card__main{
     position: relative;
@@ -113,9 +99,9 @@ header{
 .badge__discount{
     background-color: red;
     color: white;
-    font-size: 20px;
-    line-height: 30px;
-    padding: 5px;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 2px;
     position: absolute;
     top: 85%;
     left: 0%; 
@@ -126,30 +112,30 @@ header{
 .badge__sustainability{
     background-color: green;
     color: white;
-    font-size: 20px;
-    line-height: 30px;
-    padding: 5px;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 2px;
     position: absolute;
     top: 85%;
-    left: 17%; 
+    left: 15%; 
     z-index: 999;
 }
 
 .badge__favorite{
     background-color: white;
     color: black;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 30px;
     padding: 5px;
     position: absolute;
-    top: 10%;
+    top: 2%;
     right: 0%;
     z-index: 999;
-    
 }
 
 .brand_name{
     font-size: 18px;
+    font-weight: 100;
 }
 
 .item_name{
@@ -158,6 +144,7 @@ header{
 }
 
 .price_real{
+    font-weight: 100;
     font-size: 18px;
     text-decoration: line-through;
 }
@@ -180,14 +167,12 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     font-size: 15px;
+    padding: 15px;
 }
 
 .row-footer span{
     display: inline;
 }
-
-
-
 
 
 /* DEBUG */
@@ -204,12 +189,6 @@ footer{
 
 .debug .col-4{
     border: 1px solid green;
-    padding: 5px;
-    min-height: 100px;
-}
-
-.debug .col-6{
-    border: 1px solid blue;
     padding: 5px;
     min-height: 100px;
 }
